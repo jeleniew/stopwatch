@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Stopwatch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Default sound</string>
+
+    <string name="stopwatch">Stopwatch</string>
+    <string name="notifications">Notifications</string>
+    <string name="repeating_notifications">Repeating calls</string>
+    <string name="ringtones">Ringtones</string>
+
+    <string name="forbidden_characters_line1">You should not use these characters:</string>
+    <string name="forbidden_characters_line2">/ | \\ : * ? \" &lt; &gt;</string>
+
+</resources>

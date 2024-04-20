@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_stopwatch">
+
+    <fragment
+        android:id="@+id/nav_stopwatch"
+        android:name="com.example.stop_watch_notify.ui.fragment.StopwatchFragment"
+        android:label="@string/stopwatch"
+        tools:layout="@layout/fragment_stopwatch" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.example.stop_watch_notify.ui.fragment.NotificationFragment"
+        android:label="@string/notifications"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_calls"
+        android:name="com.example.stop_watch_notify.ui.fragment.RepeatingCallsFragment"
+        android:label="@string/repeating_notifications"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_ringtones"
+        android:name="com.example.stop_watch_notify.ui.fragment.RingtonesFragment"
+        android:label="@string/ringtones"
+        tools:layout="@layout/fragment_list"/>
+</navigation>
